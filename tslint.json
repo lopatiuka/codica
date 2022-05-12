@@ -1,0 +1,26 @@
+{
+    "rules": {
+        "new-parens": true,
+        "no-consecutive-blank-lines": false,
+        "no-duplicate-super": true,
+        "no-debugger": true,
+        "no-console": {
+            "severity": "warning",
+            "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+        },
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type",
+            "check-preblock",
+            "check-postbrace"
+        ],
+        "curly": true,
+        "no-async-without-await": true,
+        "triple-equals": true,
+        "space-before-function-paren": [true, {"anonymous": "always", "named": "never", "asyncArrow": "always", "method": "always", "constructor": "always"}]
+    }
+}
